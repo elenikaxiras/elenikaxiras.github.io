@@ -1,0 +1,165 @@
+/* anthropocentric look*/
+/* jumbotron with home-brew css for ac297r !/
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.jumbotron {
+    position: relative;
+    /*background:  url("images/ilab.png") center center;*/
+	background: url("images/orit.png") center center;
+	/*background: #000 url("http://s3.eu-central-1.amazonaws.com/nester.design/media/challenge_9/challenge_image.jpg") center center;*/
+	/*background: #c3d7a4 center center;*/
+	/*background: #EEE29F center center;*/
+	/*background: #000066 center center;*/
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+/* color of navigation bar */
+.navbar-inverse {
+    background-color: #000000;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    font-size:18px;
+}
+
+.backbrown {
+	background: #330000 center center;	
+	padding-top: 0px;
+    padding-bottom: 0px;
+	font-family: "Helvetica Neue", Helvetica,Arial,sans-serif;   
+    line-height: normal;
+	border-radius: 5px;
+}
+
+.backgreen {
+	background: #c3d7a4 center center;	
+	padding-top: 0px;
+    padding-bottom: 0px;
+	font-family: "Helvetica Neue", Helvetica,Arial,sans-serif;   
+    line-height: normal;
+}
+
+.backgreen .h1, .backgreen h1, .backgreen h3, .backgreen .h3 {
+    color: #FFFFFF;
+}
+
+.backtree {
+	background: #000 url("images/ac297r.jpg") center center;
+	padding-top: 0px;
+    padding-bottom: 0px;
+	font-family: "Helvetica Neue", Helvetica,Arial,sans-serif;   
+    line-height: normal;
+}
+
+.backtree .h1, .backtree h1, .backtree h3, .backtree .h3 {
+    color: #FFFFFF;
+}
+
+.whitefont p {
+	font-family: "Helvetica Neue", Helvetica,Arial,sans-serif;   
+	color:#FFFFFF;
+}
+
+.backgrey {
+	background: #9D908A center center;	
+	border-radius: 5px;
+}
+
+.backblack {
+	background: #000000 center center;	
+}
+
+/* to change opacity in img
+.backwhite img {
+    opacity: 0.6;
+    filter: alpha(opacity=40); *//* For IE8 and earlier */
+/*}*/ 
+ 
+.jumbotron .h1, .jumbotron h1, .jumbotron h2, .jumbotron .h2, .jumbotron .h4, .jumbotron h4{
+    /*color: #B7ADA1;*/
+	/*color : #FFFFFF;*/
+	/*color:#000000;*/
+	color:#660000;
+	/*color:#c55564;*/
+}
+
+.jumbotron .h1, .jumbotron h1 {
+	font-size: 50px;
+}
+
+.jumbotron h2, .jumbotron .h2, .jumbotron .h4, .jumbotron h4{
+    /*color: #B7ADA1;*/
+	/*color : #FFFFFF;*/
+	/*color:#000000*/
+}
+
+.backgrey .h1, .backgrey h1, .backgrey h2, .backgrey .h2, .backgrey .h4, .backgrey h4{
+    color: #F6F5F3;
+}
+
+.box-shadow--8dp {
+    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12), 0 5px 5px -3px rgba(0, 0, 0, .2)
+}
+
+.backwhite {
+	background: #FFFFFF center center;	
+	padding-top: 0px;
+    padding-bottom: 0px;
+	font-family: "Helvetica Neue", Helvetica,Arial,sans-serif;   
+    line-height: normal;
+}
+
+.backwhite p {
+	font-size: 18px;
+	font-family: "Helvetica Neue", Helvetica,Arial,sans-serif;   
+    line-height: normal;
+}
+
+.backwhite ul li blockquote{
+	font-size: 18px;
+	font-family: "Helvetica Neue", Helvetica,Arial,sans-serif;   
+    line-height: normal;
+	font-weight: 200;
+}
+.backwhite .h4, .backwhite h4 {
+    color: #C30336;
+}
+
+span.red {
+    color: #660000;	
+}
+.backwhite .h4, .backwhite h4 {
+    color: #C30336;
+}
+
+h4.commerce, span.commerce {color:#0398CC;}
+h4.gov, span.gov {color:#CB2128;}
+h4.finance, span.finance {color:#21B14B;}
+h4.med, span.med {color:#656565;}
+h4.research, span.research {color:#F7981D;}
+
+img.project {
+padding: 4px;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 1px;
+	color:#66666;
+} 
+
+	
+
+
